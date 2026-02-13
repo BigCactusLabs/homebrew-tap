@@ -7,10 +7,12 @@ class CodexMp < Formula
 
   head "https://github.com/BigCactusLabs/codex-multipass.git", branch: "main"
 
+  depends_on "go" => :build
   depends_on "bash"
   depends_on "fzf" => :optional
 
   def install
+    system "make", "build"
     bin.install "codex-mp"
   end
 
