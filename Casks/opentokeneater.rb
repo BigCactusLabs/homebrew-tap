@@ -1,6 +1,6 @@
 cask "opentokeneater" do
-  version "2.1.4"
-  sha256 "f2e17ec2ff5b6448b8b5056a229bc527e6c7075d037715b78f93eecf35ac2dc5"
+  version "2.1.5"
+  sha256 "a89d075cf814e622157d9a04a712f455f1205ba3c6f6dada76dd4f886911b63c"
 
   url "https://github.com/BigCactusLabs/OpenTokenEater/releases/download/v#{version}/OpenTokenEater.dmg"
   name "OpenTokenEater"
