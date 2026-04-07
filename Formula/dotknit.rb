@@ -1,8 +1,8 @@
 class Dotknit < Formula
   desc "Sync AI coding tool configs, dotfiles, and packages across macOS machines"
   homepage "https://github.com/BigCactusLabs/dotknit"
-  url "https://github.com/BigCactusLabs/dotknit/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a237a76a78ea19525df92dc80a5a982a1e9b477e76a0bc32ced235ea9cb5be02"
+  url "https://github.com/BigCactusLabs/dotknit/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "e7b1f1f88b4d48d8a59e186cefabc8461cb2fa452caee53b69fabe28eb60fe93"
   license "MIT"
 
   depends_on "stow"
