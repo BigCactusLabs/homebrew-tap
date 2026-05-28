@@ -3,8 +3,8 @@ class DeadLetter < Formula
 
   desc "Convert .eml email exports to Markdown with YAML front matter"
   homepage "https://github.com/BigCactusLabs/dead-letter"
-  url "https://files.pythonhosted.org/packages/4c/85/56f02ecaf19646215c0cd6ee433f43e31c665f985db144d9ac076405bd05/dead_letter-0.2.0.tar.gz"
-  sha256 "cd029e6ae03d3ac82a66a487f8e93badb953a277dcc9b82e0c86d290e3feaab8"
+  url "https://files.pythonhosted.org/packages/ba/97/2ff8474357540295a5a2b540746380b80095741abb9ac27ca2548cc6211c/dead_letter-0.2.1.tar.gz"
+  sha256 "9026167a1c6d452d03105716658eda6b88a944625802bee75c200f8703d4452c"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on arch: :arm64
@@ -13,8 +13,8 @@ class DeadLetter < Formula
   preserve_rpath
 
   resource "html-to-markdown" do
-    url "https://files.pythonhosted.org/packages/84/08/16ae777e572278c2ce4dc4791ccb5cd92c2a8d67a3ae40286f21a52f1d26/html_to_markdown-3.5.1-cp310-abi3-macosx_11_0_arm64.whl"
-    sha256 "26ef5a00b01a875ca6eb9849c4fe66864bf42d29f14fa5671aa4524a5155aa25"
+    url "https://files.pythonhosted.org/packages/a9/a2/5a22e789aae76e0e07e9848b1bb8b82e5f979ff2f81080054b75476bf4c8/html_to_markdown-3.5.4-cp310-abi3-macosx_11_0_arm64.whl"
+    sha256 "2c0e0ed158bed04f4baf6e2ea36e93810dca478a31427094eba530df60fc5cde"
   end
 
   resource "icalendar" do
