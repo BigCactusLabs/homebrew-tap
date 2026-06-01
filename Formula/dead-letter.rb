@@ -3,8 +3,8 @@ class DeadLetter < Formula
 
   desc "Convert .eml email exports to Markdown with YAML front matter"
   homepage "https://github.com/BigCactusLabs/dead-letter"
-  url "https://files.pythonhosted.org/packages/ba/97/2ff8474357540295a5a2b540746380b80095741abb9ac27ca2548cc6211c/dead_letter-0.2.1.tar.gz"
-  sha256 "9026167a1c6d452d03105716658eda6b88a944625802bee75c200f8703d4452c"
+  url "https://files.pythonhosted.org/packages/e3/1d/4bc7bc2cee5146f72716993ded142bff93cb0d4104852f6c752d750853ae/dead_letter-0.2.2.tar.gz"
+  sha256 "4fbdb8e4c1da9fee8a244e354a1232031988114007ddf51f42c803ad6e78318b"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on arch: :arm64
@@ -13,8 +13,8 @@ class DeadLetter < Formula
   preserve_rpath
 
   resource "html-to-markdown" do
-    url "https://files.pythonhosted.org/packages/a9/a2/5a22e789aae76e0e07e9848b1bb8b82e5f979ff2f81080054b75476bf4c8/html_to_markdown-3.5.4-cp310-abi3-macosx_11_0_arm64.whl"
-    sha256 "2c0e0ed158bed04f4baf6e2ea36e93810dca478a31427094eba530df60fc5cde"
+    url "https://files.pythonhosted.org/packages/0e/ca/89fd1ad259591656517a86e702e18c348b145fbc8550708bed9c4325bb58/html_to_markdown-3.5.7-cp310-abi3-macosx_11_0_arm64.whl"
+    sha256 "0c253e440864a01519031073a534b3838393f6aea6f88957bdf3546f3ee97325"
   end
 
   resource "icalendar" do
@@ -23,8 +23,8 @@ class DeadLetter < Formula
   end
 
   resource "mail-parser" do
-    url "https://files.pythonhosted.org/packages/8d/e9/afc4903ef4b042be380dcf0091f28416aa6be50db7b228bdc8ce8224bdfa/mail_parser-4.2.1-py3-none-any.whl"
-    sha256 "f7b46be5e0834173ca1538bf5b3cb118d4f169e7c16d157dd915aaa9bceba9a2"
+    url "https://files.pythonhosted.org/packages/8d/4f/38717202a3be94a37c262907adca700498fbb435a8356cfaed38387469c8/mail_parser-4.3.0-py3-none-any.whl"
+    sha256 "e4092a15023b7075f4666f5040e2fca71fa35a7020753b7e90359c357ed3a099"
   end
 
   resource "mail-parser-reply" do
@@ -43,8 +43,8 @@ class DeadLetter < Formula
   end
 
   resource "selectolax" do
-    url "https://files.pythonhosted.org/packages/53/aa/95211bc61a84d2f42678791654bde6a3526520f423c1450b735ef54bcf8d/selectolax-0.4.9-cp314-cp314-macosx_11_0_arm64.whl"
-    sha256 "e1a2a70a02960efc7112a99b81031fb60bca557e62f99806dd3a6354e6c888e3"
+    url "https://files.pythonhosted.org/packages/df/a5/121f398a2ff01a5947b5601ed16f99e29771dbc21b23b18c8f4527f99a40/selectolax-0.4.10-cp314-cp314-macosx_11_0_arm64.whl"
+    sha256 "01c1354b158f8c87b72ab50a12b4b6d7b276150ded39210d1078d65d1e24ae0d"
   end
 
   resource "tzdata" do
