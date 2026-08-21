@@ -3,8 +3,8 @@ class DeadLetter < Formula
 
   desc "Convert .eml email exports to Markdown with YAML front matter"
   homepage "https://github.com/BigCactusLabs/dead-letter"
-  url "https://files.pythonhosted.org/packages/67/2c/cd8e611f88dc1ad93c645d5dee200e8d57bde7f3fa2c875d8e301020ed20/dead_letter-0.2.3.tar.gz"
-  sha256 "0639d9c881ee6140ba3ddcc9afaa618487a9149afb7e141ce61aefc91ceeb928"
+  url "https://files.pythonhosted.org/packages/fd/84/a033d3d3d97362bdc4681ab0f8c55589baf5cce5ec855b868a143e4f5de7/dead_letter-0.2.5.tar.gz"
+  sha256 "a87e12adf80df59cbb870dd4e9738c10bd87d9279bfe4016c27385921e13d28c"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on arch: :arm64
@@ -13,18 +13,18 @@ class DeadLetter < Formula
   preserve_rpath
 
   resource "html-to-markdown" do
-    url "https://files.pythonhosted.org/packages/0e/ca/89fd1ad259591656517a86e702e18c348b145fbc8550708bed9c4325bb58/html_to_markdown-3.5.7-cp310-abi3-macosx_11_0_arm64.whl"
-    sha256 "0c253e440864a01519031073a534b3838393f6aea6f88957bdf3546f3ee97325"
+    url "https://files.pythonhosted.org/packages/1f/32/bea823db133ad9b31a510a7ae9f24c8984c82be0d6ca1e1b973f018eaaa2/html_to_markdown-3.10.6-cp310-abi3-macosx_11_0_arm64.whl"
+    sha256 "7603a3eb814d4be8e5e45ccad3d2461ba24a2ef60629fe500da3a030779d5c4b"
   end
 
   resource "icalendar" do
-    url "https://files.pythonhosted.org/packages/7d/a0/2929543a1dfe2667e1ce08f2d6af59480d1467c0ee38acb94637965b3de3/icalendar-7.1.2-py3-none-any.whl"
-    sha256 "01c76243c76c549f58bb51510a8f0a4edb7c539726adda1356dfd0dc04fb7a53"
+    url "https://files.pythonhosted.org/packages/bb/82/50bff78b0bb0c7d7c0cb39e0ee189b92f611fff6bd7cf57f25e92d5a7551/icalendar-7.3.0-py3-none-any.whl"
+    sha256 "8355acfe17be81b368f0b1e3740817cea9b56ea889931f8f1a87c62f2d28db0b"
   end
 
   resource "mail-parser" do
-    url "https://files.pythonhosted.org/packages/8d/4f/38717202a3be94a37c262907adca700498fbb435a8356cfaed38387469c8/mail_parser-4.3.0-py3-none-any.whl"
-    sha256 "e4092a15023b7075f4666f5040e2fca71fa35a7020753b7e90359c357ed3a099"
+    url "https://files.pythonhosted.org/packages/05/b2/db246a5f5e430e05ab358501cd34cfe2b422951a2738daf6054f4c2af885/mail_parser-4.6.3-py3-none-any.whl"
+    sha256 "abfcba25955332c72d81c06aaf32107744fd70e610a6e50899efada542712afa"
   end
 
   resource "mail-parser-reply" do
@@ -33,8 +33,8 @@ class DeadLetter < Formula
   end
 
   resource "nh3" do
-    url "https://files.pythonhosted.org/packages/85/30/d162e99746a2fb1d98bb0ef23af3e201b156cf09f7de867c7390c8fe1c06/nh3-0.3.5-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl"
-    sha256 "3bb854485c9b33e5bb143ff3e49e577073bc6bc320f0ff8fc316dd89c0d3c101"
+    url "https://files.pythonhosted.org/packages/f3/ab/a7653bce9a3b204be6a6931767a9e23595807bb84790ce6685e4d7e5bd08/nh3-0.3.6-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl"
+    sha256 "a43ebd7543555c3ac1bc353023d0794e75cb76f6f18f19c32e95441496c0cc25"
   end
 
   resource "PyYAML" do
@@ -43,13 +43,13 @@ class DeadLetter < Formula
   end
 
   resource "selectolax" do
-    url "https://files.pythonhosted.org/packages/df/a5/121f398a2ff01a5947b5601ed16f99e29771dbc21b23b18c8f4527f99a40/selectolax-0.4.10-cp314-cp314-macosx_11_0_arm64.whl"
-    sha256 "01c1354b158f8c87b72ab50a12b4b6d7b276150ded39210d1078d65d1e24ae0d"
+    url "https://files.pythonhosted.org/packages/12/fe/f4d7d554cd7db415c831c8fb5a2b6bbbe3bdf5a49c8f417a6093d4618d6c/selectolax-0.4.11-cp314-cp314-macosx_11_0_arm64.whl"
+    sha256 "d5ce592a92fceeca2694b369a83ad72891a9c356f668718fe7e1c83eea407bb4"
   end
 
   resource "tzdata" do
-    url "https://files.pythonhosted.org/packages/ce/e4/dccd7f47c4b64213ac01ef921a1337ee6e30e8c6466046018326977efd95/tzdata-2026.2-py2.py3-none-any.whl"
-    sha256 "bbe9af844f658da81a5f95019480da3a89415801f6cc966806612cc7169bffe7"
+    url "https://files.pythonhosted.org/packages/e5/6d/b53b99a9f2766d095985947a5782f1702cabb129a34f7a802d7197af832f/tzdata-2026.3-py2.py3-none-any.whl"
+    sha256 "dc096730c87af6cab1b171c9d532be840741ff5d459015e7f6947bd7d7e54931"
   end
 
   resource "python-dateutil" do
