@@ -3,8 +3,9 @@ class DeadLetter < Formula
 
   desc "Convert .eml email exports to Markdown with YAML front matter"
   homepage "https://github.com/BigCactusLabs/dead-letter"
-  url "https://files.pythonhosted.org/packages/e6/62/eb91520390ed72980c2eeb6114a38b86b71104bf0e71a6f5451c59e6eebe/dead_letter-0.3.1.tar.gz"
-  sha256 "b901643b7f39761b35af8b585e276aa89b7e34693e8c314d0dadb19bd7ec96b5"
+  url "https://files.pythonhosted.org/packages/1f/7b/992dd5a68ed67c16c8ce91f7acbf608869964dc85710ffcaf0fa382ef822/dead_letter-0.4.0.tar.gz"
+  version "0.4.0"
+  sha256 "5dbcffe0ddc4b6a7c9274a1a6dd74429c6d2adf29dcc75a9a3bc3084bf14accb"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on arch: :arm64
