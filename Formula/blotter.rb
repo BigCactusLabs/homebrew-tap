@@ -1,25 +1,25 @@
 class Blotter < Formula
   desc "Append-only friction ledger for AI agents: log the cuts that got in the way and the findings worth writing up, find what recurs, promote it into durable fixes, and verify the fixes held."
   homepage "https://github.com/BigCactusLabs/blotter"
-  version "1.1.1"
+  version "1.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.1/blotter-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "50179bc34bc7b56cbb42f5b3ae56844ad2cb8bcc3e7920fb252be2c6417ac1dc"
+      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.2/blotter-cli-aarch64-apple-darwin.tar.gz"
+      sha256 "ff9b7b1b69e816f6ae4cc5f7418a5a688842d787bf5a4ac6957205bb4f571b59"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.1/blotter-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "d2924fbe499dba5aebedd24c4cebf1fdfbef09331de251fdc15298db59ce1bcd"
+      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.2/blotter-cli-x86_64-apple-darwin.tar.gz"
+      sha256 "ea07fb765bfe35a654b33ba2d5ac7a6f94e268fb561606e98698d013bf1ee24d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.1/blotter-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "04046d9bd3bceb9b9eec4f71eb51c0fb49095d28f58319724b5d3f4667629c50"
+      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.2/blotter-cli-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4dca3ee0ad7c74e8e71ed45f203fca69245deb974a3168f90bd11bae2eedad4a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.1/blotter-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b9961e07dce20868ac4d0a23e48cbe2d94245d8c9c919ee8246bd59221d41a83"
+      url "https://github.com/BigCactusLabs/blotter/releases/download/v1.1.2/blotter-cli-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cb5ddc1ae0fe53212986bfcf50330a625f10a1a9c7fb063e46f873d8a4c4c43e"
     end
   end
   license "MIT"
