@@ -3,9 +3,9 @@ class DeadLetter < Formula
 
   desc "Convert .eml email exports to Markdown with YAML front matter"
   homepage "https://github.com/BigCactusLabs/dead-letter"
-  url "https://files.pythonhosted.org/packages/79/b5/99c68c72ccd4fb2df5a293377aee2ffe91a4ca0ee203fa6abb994e32a865/dead_letter-0.4.8.tar.gz"
-  version "0.4.8"
-  sha256 "c0ef0bde642ce59d4347003d574fabf8692f5a2a347f3fc29a7b5d6502003036"
+  url "https://files.pythonhosted.org/packages/a7/07/d78898dd1782976a90855be7cb8579bc28f95cddbc03f2da980fcc9c9750/dead_letter-0.4.10.tar.gz"
+  version "0.4.10"
+  sha256 "55a5261118afd30c9a91fe84848d5f423cf45e4e97a576cb85f0e429f440fd64"
   license "PolyForm-Noncommercial-1.0.0"
 
   depends_on arch: :arm64
@@ -50,8 +50,8 @@ class DeadLetter < Formula
   end
 
   resource "html-to-markdown" do
-    url "https://files.pythonhosted.org/packages/ac/f5/85b377b71660c84061034e89446d243460ef4d5a87f1f51565c04ad76ff6/html_to_markdown-3.18.5-cp310-abi3-macosx_11_0_arm64.whl"
-    sha256 "0df869b4fe917c43fbc12d1fac52eeea11054f6beeb03c695db80f31881ddb52"
+    url "https://files.pythonhosted.org/packages/03/ac/a2f6a2590e93118ceeedb1da79f2800c07de44966e0a02639330574a8e0c/html_to_markdown-3.19.0-cp310-abi3-macosx_11_0_arm64.whl"
+    sha256 "244ce92406c8febcedcbe1e2431b9ba06a9617cbcfb2401661306be94b15208a"
   end
 
   resource "httpcore2" do
@@ -85,8 +85,8 @@ class DeadLetter < Formula
   end
 
   resource "mail-parser" do
-    url "https://files.pythonhosted.org/packages/74/a1/3bb021d2f35ad523cb6fed8d9b6133d3116ded938b85acd9d452c012d854/mail_parser-4.8.0-py3-none-any.whl"
-    sha256 "119aed23c2056dd73b7d70b77e5caf1bc0cb3675ca50c1ff49b4b72296ffa9ca"
+    url "https://files.pythonhosted.org/packages/fc/8e/209531b4fbd7f92099092736602897415a8fa88abc235bbc2d5be25df954/mail_parser-4.9.0-py3-none-any.whl"
+    sha256 "4911053276f4078c60959135c77b58e308f4acf78ec5ac7366117aa60dc74a97"
   end
 
   resource "mail-parser-reply" do
@@ -110,23 +110,23 @@ class DeadLetter < Formula
   end
 
   resource "opentelemetry-api" do
-    url "https://files.pythonhosted.org/packages/1e/41/f7dcf80b81ee8e71c1a2b59f14208bc723edbd89ed027a73b175abf6348e/opentelemetry_api-1.45.1-py3-none-any.whl"
-    sha256 "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb"
+    url "https://files.pythonhosted.org/packages/a9/2d/610db864d7513158cebb8f36cc88e67e73bd6c7aa1905ef18d89e1281c81/opentelemetry_api-1.45.2-py3-none-any.whl"
+    sha256 "2cbd737377e710ee740d261c94e93fa0f08e6d037c18f17513cc0a2d94479a34"
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/90/11/0e6f11117525ff0eec40ebac3d313376f102df93ca44ad9e893ee85e4f89/pycparser-3.11-py3-none-any.whl"
-    sha256 "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
+    url "https://files.pythonhosted.org/packages/b6/ae/315bbeee126a769cbde43cf4908acb4b40408d8bf8bbf334dd7368d8dadf/pycparser-3.12-py3-none-any.whl"
+    sha256 "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/35/ea/a56b9fe5066f3537b7882f77e9c5dfb26d8c2eefdaed9b5fc73d57b4dc22/pydantic-2.14.1-py3-none-any.whl"
-    sha256 "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454"
+    url "https://files.pythonhosted.org/packages/97/01/c71a71258b58659c72504e5fd65b451f6e36e34dc931d0b237ded213c814/pydantic-2.14.2-py3-none-any.whl"
+    sha256 "7efbf7507b937931cd32a5755acb00ea1cf5ccb1d4e8067a5850d5069e382118"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/94/40/15c06410c9b7b8da5805d27b64e09bd3f900e986728106db2689dbc51513/pydantic_core-2.50.1-cp314-cp314-macosx_11_0_arm64.whl"
-    sha256 "4df197990c15b5a37c5a277d131d9f2c67de6133f2e5dafd80d9bba4b99f46f9"
+    url "https://files.pythonhosted.org/packages/db/68/315701095f25687938ab79d263a6d939337456c2840fe69038fd38000338/pydantic_core-2.50.2-cp314-cp314-macosx_11_0_arm64.whl"
+    sha256 "6ffb4dce3ecb2cd563aa30f9eb5088a1cf1f4f688b90cbb374fa96e49fc50b02"
   end
 
   resource "pyjwt" do
@@ -135,8 +135,8 @@ class DeadLetter < Formula
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
-    sha256 "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+    url "https://files.pythonhosted.org/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl"
+    sha256 "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
   end
 
   resource "python-multipart" do
@@ -160,8 +160,8 @@ class DeadLetter < Formula
   end
 
   resource "selectolax" do
-    url "https://files.pythonhosted.org/packages/0e/f9/f1cf6761b7b880e254eaf80e651c91d0d669981cfcbe740f317450f6c607/selectolax-1.0.1-cp314-cp314-macosx_11_0_arm64.whl"
-    sha256 "02336e32609b30edfec8d30f1ef6a3b2f1ba8f07f725774b521914a1ba235742"
+    url "https://files.pythonhosted.org/packages/2c/17/3c71e4df0976132f31190cf8f014dd3e7535c68a334037d4343cafc2d7ea/selectolax-1.0.2-cp314-cp314-macosx_11_0_arm64.whl"
+    sha256 "9776b5c4a83b3d519f67f5653fe8a44a93f1be4b7089a7490d4c34b6897ccfd7"
   end
 
   resource "six" do
@@ -170,13 +170,13 @@ class DeadLetter < Formula
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/be/e4/cdda14023c316d71493bc54fdffc3dd006631b88866145c9d3cc33e0f1df/sse_starlette-3.5.0-py3-none-any.whl"
-    sha256 "3e6e1070df3f0f5d9cea81496de92dbb72f6721871d99748ece67441dd8b7997"
+    url "https://files.pythonhosted.org/packages/cf/49/35053078cdfcf639237e8bee6dc6f34f1b3a3cc8d01800a1e213e1660ff6/sse_starlette-3.6.0-py3-none-any.whl"
+    sha256 "e4dfa4d237d2712cb2b4d4918eda9b457cd6b44bbecdc838af75de836565bafd"
   end
 
   resource "starlette" do
-    url "https://files.pythonhosted.org/packages/f3/93/181df62699d9b5aca1d87e5cfda131dac87e3cdaebf668662f7206ca3470/starlette-1.9.0-py3-none-any.whl"
-    sha256 "fd3f159936e882d06c1108f84688f7cda2cf85fc6a592a50edbd175e882c2ddc"
+    url "https://files.pythonhosted.org/packages/88/2e/947cfe02def9371c07cd5bf5b6b61c829e9aecb9904db02a66cfafbc1eec/starlette-1.10.0-py3-none-any.whl"
+    sha256 "478c0ab3b4ced6e82719849c118fa406f0278a3499c1a898cd15cd31bdc38ce4"
   end
 
   resource "truststore" do
@@ -195,8 +195,8 @@ class DeadLetter < Formula
   end
 
   resource "tzdata" do
-    url "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl"
-    sha256 "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac"
+    url "https://files.pythonhosted.org/packages/0a/66/9a06c2227fedfd4919f0eaaa8b94377d9730882a7e4f95823c9a331ab5e1/tzdata-2026.6-py2.py3-none-any.whl"
+    sha256 "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
   end
 
   resource "uvicorn" do
